@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script> <title>Inköpslista</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <header>
+        <h2 class="fw-bolder">Inköpslistan</h2>
+    </header>
+
+    <div class="row">
+        <div class="col-4" id="gameExpl">
+            <p id="test">
+            Välkommen till Inköpslistan. 
+            Skriv varorna du behöver och klicka på knappen 'Spara'. 
+            I listan som du har skapat kan du markera ett element 
+            och den blir understruken och färgad så att du vet att 
+            du redan har varan. 
+            Genom att klicka igen på den raden, kan du ångra åtgärden
+            och elementet i listan återgår till dess ursprungliga lägge.
+            Du kan även ta bort ett element från listan genom att 
+            dubbelklicka på det .
+            </p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col">
+            <form action="#">
+                <div class="row">
+                    <label for="txtUserInput">Ange varan :</label>
+                    <div class="col">
+                        <input type="text" id="txtUserInput" name="txtUserInput">
+                        <input id="btnAdd" type="button" value="Lägg till">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                    <label for="result" id="titel">Inköpslista</label><br><br>
+                    <p id="resultatListan"></p>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

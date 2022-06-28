@@ -1,0 +1,39 @@
+body{
+    background-color: aquamarine;
+    margin: 2em;
+  
+}
+#gameExpl{
+    margin-top: 2em;
+    margin-left: 2em;
+    width: 22em;
+}
+#btnAdd{
+    
+    background-color: rgb(12, 172, 12);
+    border-style: none;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.5);
+}
+.fw-bolder{
+    text-align: left;
+    
+}
+form{
+    margin-left: 2em;
+}
+#titel{
+    margin-top: 2em;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#resultatListan{
+    
+    width: 30%;
+}
+#txtUserInput{
+    border-radius: 8px;
+    border-style: none;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.5);
+}
+
